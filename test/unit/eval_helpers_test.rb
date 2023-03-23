@@ -111,7 +111,7 @@ class EvalHelpersSymbolTaintedMethodTest < EvalHelpersBaseTest
         true
       end
       
-      taint
+      $SAFE = false
     end
   end
   
